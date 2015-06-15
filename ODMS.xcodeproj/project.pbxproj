@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		031287FA1B03B85F00C1B5E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031287F91B03B85F00C1B5E3 /* AppDelegate.swift */; };
-		031287FC1B03B85F00C1B5E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031287FB1B03B85F00C1B5E3 /* ViewController.swift */; };
 		031287FF1B03B85F00C1B5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031287FD1B03B85F00C1B5E3 /* Main.storyboard */; };
 		031288011B03B85F00C1B5E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031288001B03B85F00C1B5E3 /* Images.xcassets */; };
 		031288041B03B85F00C1B5E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031288021B03B85F00C1B5E3 /* LaunchScreen.xib */; };
 		031288101B03B85F00C1B5E3 /* ODMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312880F1B03B85F00C1B5E3 /* ODMSTests.swift */; };
+		0312881A1B03BA7100C1B5E3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031288191B03BA7100C1B5E3 /* TableViewController.swift */; };
+		03293CD61B28AEF600D6FA49 /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03293CD51B28AEF600D6FA49 /* ImportViewController.swift */; };
+		03326B961B1CEF1700650D38 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03326B951B1CEF1700650D38 /* SwiftyJSON.swift */; };
+		035C01FF1B1F98AE00ADB3E9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035C01FE1B1F98AE00ADB3E9 /* LoginViewController.swift */; };
+		035C02011B1F99B300ADB3E9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035C02001B1F99B300ADB3E9 /* SignupViewController.swift */; };
+		03AC810C1B17C78C000E4D01 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC810B1B17C78C000E4D01 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,19 @@
 		031287F41B03B85F00C1B5E3 /* ODMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031287F81B03B85F00C1B5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031287F91B03B85F00C1B5E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		031287FB1B03B85F00C1B5E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		031287FE1B03B85F00C1B5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		031288001B03B85F00C1B5E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		031288031B03B85F00C1B5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		031288091B03B85F00C1B5E3 /* ODMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0312880E1B03B85F00C1B5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0312880F1B03B85F00C1B5E3 /* ODMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODMSTests.swift; sourceTree = "<group>"; };
+		031288191B03BA7100C1B5E3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		03293CD41B28A9B800D6FA49 /* ODMS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ODMS.entitlements; sourceTree = "<group>"; };
+		03293CD51B28AEF600D6FA49 /* ImportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
+		03326B951B1CEF1700650D38 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		035C01FE1B1F98AE00ADB3E9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		035C02001B1F99B300ADB3E9 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		03AC810B1B17C78C000E4D01 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +88,18 @@
 		031287F61B03B85F00C1B5E3 /* ODMS */ = {
 			isa = PBXGroup;
 			children = (
+				03293CD41B28A9B800D6FA49 /* ODMS.entitlements */,
+				03326B951B1CEF1700650D38 /* SwiftyJSON.swift */,
 				031287F91B03B85F00C1B5E3 /* AppDelegate.swift */,
-				031287FB1B03B85F00C1B5E3 /* ViewController.swift */,
 				031287FD1B03B85F00C1B5E3 /* Main.storyboard */,
+				03AC810B1B17C78C000E4D01 /* DataManager.swift */,
+				031288191B03BA7100C1B5E3 /* TableViewController.swift */,
 				031288001B03B85F00C1B5E3 /* Images.xcassets */,
 				031288021B03B85F00C1B5E3 /* LaunchScreen.xib */,
 				031287F71B03B85F00C1B5E3 /* Supporting Files */,
+				035C01FE1B1F98AE00ADB3E9 /* LoginViewController.swift */,
+				035C02001B1F99B300ADB3E9 /* SignupViewController.swift */,
+				03293CD51B28AEF600D6FA49 /* ImportViewController.swift */,
 			);
 			path = ODMS;
 			sourceTree = "<group>";
@@ -161,6 +178,12 @@
 				TargetAttributes = {
 					031287F31B03B85F00C1B5E3 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8N9C8VKW62;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					031288081B03B85F00C1B5E3 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -212,8 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031287FC1B03B85F00C1B5E3 /* ViewController.swift in Sources */,
+				035C02011B1F99B300ADB3E9 /* SignupViewController.swift in Sources */,
 				031287FA1B03B85F00C1B5E3 /* AppDelegate.swift in Sources */,
+				03AC810C1B17C78C000E4D01 /* DataManager.swift in Sources */,
+				0312881A1B03BA7100C1B5E3 /* TableViewController.swift in Sources */,
+				035C01FF1B1F98AE00ADB3E9 /* LoginViewController.swift in Sources */,
+				03326B961B1CEF1700650D38 /* SwiftyJSON.swift in Sources */,
+				03293CD61B28AEF600D6FA49 /* ImportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +368,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ODMS/ODMS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ODMS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +382,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ODMS/ODMS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ODMS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -409,6 +445,7 @@
 				031288151B03B85F00C1B5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		031288161B03B85F00C1B5E3 /* Build configuration list for PBXNativeTarget "ODMSTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				031288181B03B85F00C1B5E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
